@@ -5,3 +5,10 @@ gradle-wrapper.jar
 /gradlew.bat
 /local.properties
 GeneratedPluginRegistrant.java
+*.iml
+/.idea/*
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
