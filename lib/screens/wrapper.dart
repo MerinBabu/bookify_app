@@ -1,4 +1,6 @@
 import 'package:bookapp/models/user.dart';
+import 'package:bookapp/screens/home/detail.dart';
+import 'package:bookapp/screens/home/data.dart';
 import 'package:bookapp/screens/authenticate/authenticate.dart';
 import 'package:flutter/material.dart';
 import 'package:bookapp/screens/home/home.dart';
@@ -17,6 +19,8 @@ class Wrapper extends StatelessWidget {
     }
     else{
       return Home();
+
     }
+
   }
 }
